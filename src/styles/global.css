@@ -9,6 +9,7 @@
   width: 100%;
   background-color: #2a359e;
   padding: 10px 100px;
+  z-index: 2;
 }
 
 .logo-header {
@@ -26,4 +27,27 @@
 
 .navbar-nav {
   margin-right: 20px!important;
+}
+
+.fundo-video {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.fundo-video .video {
+  height: 100vh;
+  width: 100%;
+}
+
+.fundo-video::after {
+  content: '';
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, #3348ff -90%, rgba(0, 0, 0, 0.85) 49%, #3348ff 160%);
 }

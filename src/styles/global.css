@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  height: 100px;
+  width: 100%;
+  background-color: #2a359e;
+  padding: 10px 100px;
+}
+
+.logo-header {
+  max-height: 80px;
+}
+
+.header .nav-link {
+  color: #fff!important;
+  font-weight: 700;
+}
+
+.header .nav-link:hover {
+  color: #cecece!important;
+}
+
+.navbar-nav {
+  margin-right: 20px!important;
+}

@@ -1,4 +1,5 @@
 import { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 export default class Header extends Component {
   render() {
@@ -13,22 +14,22 @@ export default class Header extends Component {
             <div className="collapse navbar-collapse" id="navbarSupportedContent">
               <ul className="navbar-nav me-auto mb-2 mb-lg-0 mr-5">
                 <li className="nav-item">
-                  <a className="nav-link" href="#">PodMat</a>
+                  <Link className="nav-link" to="/podmat">PodMat</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Vídeo Aulas</a>
+                  <Link className="nav-link" to="/videoaulas">Video Aulas</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Questões Inéditas</a>
+                  <Link className="nav-link" to="/questoesineditas">Questoes Ineditas</Link>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Quem somos?</a>
+                  <Link className="nav-link" to="/about">Quem somos</Link>
                 </li>
               </ul>
               <br />
               <form className="d-flex" role="search">
-                <input className="form-control me-2" type="search" placeholder="Search" aria-label="Search"></input>
-                  <button className="btn btn-outline-success" type="submit">Search</button>
+                <input className="form-control me-2" type="search" placeholder="Pesquisar" aria-label="Pesquisar"></input>
+                  <button className="btn btn-outline-warning" type="submit">Pesquisar</button>
               </form>
             </div>
           </div>

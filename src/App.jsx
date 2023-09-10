@@ -7,8 +7,6 @@ export default function App() {
       <div className="fundo-video">
         <img className='video' src="/public/bg-image.jpg" alt="asd"></img>
       </div>
-
-    <Header />
     </>
   )
 }

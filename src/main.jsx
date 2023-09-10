@@ -15,8 +15,8 @@ ReactDOM.createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path='/' element={<App />} />
         <Route path='/podmat' element={<PodMat />} />
-        <Route path='/videoaulas' element={<VideoAula />} />
-        <Route path='/questoesineditas' element={<IneditQuestions />} />
+        <Route path='/video-aulas' element={<VideoAula />} />
+        <Route path='/questoes-ineditas' element={<IneditQuestions />} />
         <Route path='/about' element={<About />} />
       </Routes>
     </BrowserRouter>

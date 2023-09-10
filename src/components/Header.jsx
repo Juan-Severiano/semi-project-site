@@ -5,7 +5,9 @@ export default class Header extends Component {
   render() {
     return (
       <header className='header d-flex flex-row justify-content-between'>
+        <Link to='/'>
         <img className='logo-header' src="/adaptive-icon.jpg" alt="asd"></img>
+        </Link>
         <nav className="navbar navbar-expand-lg">
           <div className="container-fluid">
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,10 +19,10 @@ export default class Header extends Component {
                   <Link className="nav-link" to="/podmat">PodMat</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/videoaulas">Video Aulas</Link>
+                  <Link className="nav-link" to="/video-aulas">Video Aulas</Link>
                 </li>
                 <li className="nav-item">
-                  <Link className="nav-link" to="/questoesineditas">Questoes Ineditas</Link>
+                  <Link className="nav-link" to="/questoes-ineditas">Questoes Ineditas</Link>
                 </li>
                 <li className="nav-item">
                   <Link className="nav-link" to="/about">Quem somos</Link>

@@ -5,7 +5,7 @@ export default function App() {
   return (
     <>
       <div className="fundo-video">
-        <img className='video' src="/public/bg-image.jpg" alt="asd"></img>
+        <img className='video' src="/bg-image.jpg" alt="asd"></img>
       </div>
     </>
   )

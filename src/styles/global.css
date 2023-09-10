@@ -12,6 +12,14 @@
   z-index: 2;
 }
 
+.header-page {
+  margin-top: 20px;
+}
+
+.header-page h1 {
+  font-weight: bold;
+}
+
 .logo-header {
   max-height: 80px;
 }
@@ -50,4 +58,30 @@
   top: 0;
   left: 0;
   background: linear-gradient(90deg, #3348ff -90%, rgba(0, 0, 0, 0.85) 49%, #3348ff 160%);
+}
+
+.video-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.video-list iframe {
+  margin: 20px;
+}
+
+.person-card {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 300px;
+  border-radius: 20px;
+  padding: 30px;
+}
+
+.img-person {
+  max-width: 150px;
+  border-radius: 50%;
 }

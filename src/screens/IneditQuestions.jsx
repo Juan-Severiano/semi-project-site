@@ -16,7 +16,7 @@ export default class IneditQuestions extends Component {
                 </div>
 
                 <main className="video-list">
-                <iframe src={this.state.listPodcasts[0].link} width='70%' height='1000' frameborder="0"></iframe>
+                <iframe src={this.state.listPodcasts[0].link} width='90%' height='1000' frameborder="0"></iframe>
                 </main>
                 
 

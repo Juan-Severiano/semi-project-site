@@ -85,3 +85,32 @@
   max-width: 150px;
   border-radius: 50%;
 }
+
+.welcome {
+  height: 500px;
+  width: 50%;
+  flex-direction: column;
+  color: #cecece;
+}
+
+.carousel {
+  width: 40%;
+  height: 50%;
+}
+
+.carousel-inner {
+  border-radius: 50%;
+}
+
+.home {
+  max-height: 70vh;
+}
+
+.title-home {
+  font-size: 50px;
+  font-weight: 900;
+}
+
+.person-card h4 {
+  color: #f3a401;
+}

@@ -78,11 +78,6 @@ export default {
         name: 'SEMI Descritor 67',
         link: 'https://www.youtube.com/embed/6zsdKZVNcYA?si=dqDUWLNxEFcqdLLh'
       },
-      {
-        id: 3,
-        name: 'SPAECE 3° ANO',
-        link: 'https://docs.google.com/forms/d/e/1FAIpQLSc5UnPKXumcANMVTzZ7iALqi60DeW5Z4mFFIgmpoMtkKyEnBQ/viewform'
-      },
     ],
     participants: [
       {

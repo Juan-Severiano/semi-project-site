@@ -144,6 +144,20 @@ export default {
         funcao: 'Coord. dos cadernos de Campo',
         cover: '',
       },
+      {
+        id: 10,
+        name: 'Juan',
+        instaIg: '_juan.sev_',
+        funcao: 'Desenvlvedor do App e Site',
+        cover: '',
+      },
+      {
+        id: 11,
+        name: 'Michel',
+        instaIg: 'mr0_0ney',
+        funcao: 'Desenvlvedor do App e Site',
+        cover: '',
+      },
 
     ]
   }

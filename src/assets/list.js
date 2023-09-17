@@ -153,6 +153,5 @@ export default {
         funcao: 'Desenvlvedor do App e Site',
         cover: '',
       },
-
     ]
   }

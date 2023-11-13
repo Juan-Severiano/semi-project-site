@@ -11,7 +11,7 @@ export default class IneditQuestions extends Component {
             <section className="container">
 
                 <div className="header-page">
-                    <h1>Seja bem vindo ao nosso Banco de Questoes</h1>
+                    <h1>Seja bem vindo ao nosso Banco de Questões</h1>
                     <p>Aqui você poderá ver os nossos vídeos produzidos, e assistir os episódios empuolgantes e super interativos, de conversas e opiniões de convidados especiais debatendo sobre a matemática.</p>
                 </div>
 
